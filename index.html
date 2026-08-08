@@ -88,7 +88,8 @@
   .field input:focus, .field select:focus{outline:none; border-color:var(--mint);}
   .amt-input{display:flex; align-items:center; background:var(--surface-2); border:1px solid var(--line); border-radius:10px; padding:0 12px;}
   .amt-input span{color:var(--muted); font-size:15px;}
-  .amt-input input{border:none; background:none; padding:11px 6px; flex:1;}
+  .amt-input select{width:auto !important; flex:0 0 auto; min-width:52px;}
+  .amt-input input{border:none; background:none; padding:11px 6px; flex:1 1 auto; width:auto !important; min-width:0;}
   .modal-btns{display:flex; gap:10px; margin-top:18px;}
   .btn{flex:1; border-radius:12px; padding:13px; font-size:14px; font-weight:600; border:none; cursor:pointer;}
   .btn-primary{background:var(--mint); color:#0A1512;}
